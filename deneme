@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+
+    /*2x^2+3y+4 denkelemini kuralım.*/
+
+    int sayix;
+    int sayiy;
+    int denklem;
+
+    printf("Bir x degeri giriniz;");
+    scanf("%d",&sayix);
+    printf("Bir y degeri giriniz;");
+    scanf("%d",&sayiy);
+
+    denklem = 2*(sayix*sayix)+3*(sayiy)+4;
+    printf("Denklemin sonucu=%d",denklem);
+    return 0;
+}
